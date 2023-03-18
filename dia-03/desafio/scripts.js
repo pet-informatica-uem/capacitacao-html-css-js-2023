@@ -1,8 +1,13 @@
-const btnGenerate = document.getElementById('btn-generate');
-const passwordContainer = document.getElementById('password-container');
-const password = document.getElementById('password');
-const btnCopy = document.getElementById('btn-copy');
+// Selecionar os elementos
+// btn-generate
 
+// password-container
+
+// password
+
+// btn-copy
+
+// Função para gerar senha aleatória
 function generateRandonPassword() {
   const characters =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -15,14 +20,7 @@ function generateRandonPassword() {
   return password;
 }
 
-btnGenerate.addEventListener('click', function () {
-  const randomPassword = generateRandonPassword();
-  password.innerHTML = randomPassword;
-  passwordContainer.classList.add('active');
-});
+// Eventos
+// Ao clicar no botão gerar senha
 
-btnCopy.addEventListener('click', function () {
-  const copyText = document.getElementById('password');
-  navigator.clipboard.writeText(copyText.innerText);
-  alert('Senha copiada');
-});
+// Ao clicar no botão copiar senha
