@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/perfil.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Meu perfil</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <div class="profile">
+          <img src="./assets/perfil.png" alt="" />
+          <div class="info">
+            <h1>PET Informática UEM</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus officia architecto suscipit voluptatibus praesentium cum
+              voluptate deleniti, aliquid, quia, sunt distinctio eaque quidem
+              laboriosam consectetur maiores in nemo? Aliquam, reprehenderit?
+            </p>
+          </div>
+        </div>
+        <ul class="socials">
+          <li class="insta">
+            <a href="https://instagram.com/petinfouem" target="_blank">
+              <i class="ph ph-instagram-logo"></i>
+              <span>@petinfouem</span>
+            </a>
+          </li>
+          <li class="linkedin">
+            <a
+              href="https://linkedin.com/in/pet-informática-universidade-estadual-de-maringá-249648232/"
+              target="_blank"
+            >
+              <i class="ph ph-linkedin-logo"></i>
+              <span>/in/pet-informatica-uem</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="container s-albuns">
+        <h2 class="subtitulo">Melhores álbuns do mundo!!</h2>
+
+        <div class="cards">
+          <div class="card">
+            <img src="./assets/tche.jpg" alt="" />
+            <span>Tchere tche tche</span>
+          </div>
+          <div class="card">
+            <img src="./assets/calypso.jpg" alt="" />
+            <span>Xonou, Xonou</span>
+          </div>
+          <div class="card">
+            <img src="./assets/chico.jpg" alt="" />
+            <span>Feliz / Sério</span>
+          </div>
+          <div class="card">
+            <img src="./assets/falamansa.jpg" alt="" />
+            <span>Essa aqui é top!!</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="container s-photos">
+        <h2 class="subtitulo">Minhas fotos</h2>
+
+        <swiper-container
+          class="mySwiper"
+          navigation="true"
+          pagination="true"
+          pagination-clickable="true"
+          space-between="30"
+          slides-per-view="auto"
+        >
+          <swiper-slide>
+            <img src="./assets/samba.jpg" alt="" />
+            <span>Eu na rodinha de samba</span>
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/caneta.jpg" alt="" />
+            <span>Eu me exercitando</span>
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/teres.jpg" alt="" />
+            <span>Terere > Chimarrão</span>
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/neymar.png" alt="" />
+            <span>Eu não olhando para a foto</span>
+          </swiper-slide>
+        </swiper-container>
+      </section>
+    </main>
+
+    <footer>
+      <p>2023. Feito com ♡ por PET-Infomática.</p>
+    </footer>
+  </body>
+</html>
